@@ -57,10 +57,6 @@ body {
     .show-data {
         display: flex;
     }
-
-    .show-info {
-        padding: 10px;
-    }
 }
 
 .roboto-thin {
