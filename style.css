@@ -35,6 +35,10 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+    .show-data{
+        display: block;
+    }
+
     .show-data img {
         margin: auto;
     }
@@ -45,6 +49,16 @@ body {
 
     .show-info p {
         text-align: center;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .show-data {
+        display: flex;
+    }
+
+    .show-info {
         padding: 10px;
     }
 }
