@@ -40,6 +40,7 @@ async function searchShow(event) {
 
 				// create and add header h1 inside show-info
 				const titleElement = document.createElement("h1");
+                titleElement.textContent = show.name;
                 showInfoElement.appendChild(titleElement);
 
 				// create and add paragraph inside show-info
