@@ -1,7 +1,6 @@
 body {
     background-color: #eceff1;
     font-family: "Roboto", sans-serif;
-    
 }
 
 .show-container {
@@ -19,7 +18,6 @@ body {
     padding: 10px;
     border-radius: 6px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-    display: flex;
 }
 
 .show-data h1 {
@@ -32,21 +30,22 @@ body {
 
 .show-info {
     width: 100%;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 800px) {
     .show-data img {
         margin: auto;
     }
+
     .show-info {
         padding: 10px;
     }
-        
-    
+
     .show-info p {
         text-align: center;
+        padding: 10px;
     }
-    
 }
 
 .roboto-thin {
