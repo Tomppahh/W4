@@ -19,7 +19,7 @@ body {
     padding: 10px;
     border-radius: 6px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-    
+    display: flex;
 }
 
 .show-data h1 {
@@ -39,8 +39,12 @@ body {
         margin: auto;
     }
     .show-info {
-        text-align: center;
         padding: 10px;
+    }
+        
+    
+    .show-info p {
+        text-align: center;
     }
     
 }
