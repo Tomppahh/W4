@@ -21,13 +21,9 @@ body {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     
 }
-.show-info p {
-    text-align:justify
-}
+
 .show-data h1 {
-    width: 100%;
     text-align: center;
-    display: block;
 }
 
 .show-data img {
@@ -36,14 +32,13 @@ body {
 
 .show-info {
     width: 100%;
-    padding: 10px;
 }
 
 @media only screen and (max-width: 800px) {
     .show-data img {
         margin: auto;
     }
-    .show-info p {
+    .show-info {
         text-align: center;
         padding: 10px;
     }
