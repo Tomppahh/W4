@@ -16,8 +16,9 @@ body {
     padding: 10px;
     border-radius: 6px;
     box-shadow: #000000;
+    display: flex;
 }
-.show.data h1 {
+.show-data h1 {
     text-align: center;
     display: block;
 }
